@@ -69,12 +69,18 @@ body{
   border: 1px solid var(--line);
   background: rgba(17,25,54,.35);
   border-radius: 14px;
-  overflow:hidden;
+  /* 手机上列太多时允许横向滚动 */
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .grid{
   display:grid;
   grid-template-columns: 110px repeat(6, minmax(140px, 1fr));
+  /* 让 grid 宽度随内容增长，配合 grid-wrap 横向滚动 */
+  width: max-content;
+  min-width: 100%;
 }
 
 .cell{
