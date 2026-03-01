@@ -377,5 +377,55 @@
   "source": {
     "xlsx": "/Users/ssssssure/.openclaw/media/inbound/2025-2026-2_class_schedule_for_Y3_-_course_arrangement_20260---57991569-cca1-42d9-8022-4d177c6fe0d2.xlsx",
     "sheet": "panoramic2026春ME"
+  },
+  "courseNames": {
+    "PHY3402P": {
+      "en": "Fundamentals of Fluid Mechanics",
+      "zh": "流体力学基础"
+    },
+    "PHY3403P": {
+      "en": "Statistical Physics and Transport Phenomena",
+      "zh": "统计物理与输运现象"
+    },
+    "MATH3307P": {
+      "en": "Probability & Statistics",
+      "zh": "概率与统计"
+    },
+    "MATH3306P": {
+      "en": "Optimisation",
+      "zh": "最优化"
+    },
+    "MATH4401P": {
+      "en": "Functional Analysis and Partial Differential Equation Discretization",
+      "zh": "泛函分析与偏微分方程离散化"
+    },
+    "ME4403P": {
+      "en": "Mechanics of Continuum Media",
+      "zh": "连续介质力学"
+    },
+    "ME4401P": {
+      "en": "Fundamentals of Materials Science",
+      "zh": "材料科学基础"
+    },
+    "ME4405P": {
+      "en": "Mechanics of Materials",
+      "zh": "材料力学"
+    },
+    "FL3607P": {
+      "en": "Art, Nature and Engineering",
+      "zh": "艺术、自然与工程"
+    },
+    "FL3816P": {
+      "en": "Introduction to French Game Study",
+      "zh": "法国游戏研究导论"
+    },
+    "FL3812P": {
+      "en": "Introduction to French Arts",
+      "zh": "法国艺术导论"
+    },
+    "FL3804P": {
+      "en": "French Practical Writing (2)",
+      "zh": "法语写作（2）"
+    }
   }
 }

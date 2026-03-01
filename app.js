@@ -57,9 +57,20 @@ function el(tag, cls, text) {
   return node;
 }
 
-function formatEventDetail(e) {
+function getCourseTitle(schedule, code, lang) {
+  const dict = schedule.courseNames || schedule.courses || {};
+  const item = dict[code];
+  if (!item) return null;
+  if (lang === 'en') return item.en || item.title_en || item.titleEn || null;
+  return item.zh || item.title_zh || item.titleZh || null;
+}
+
+function formatEventDetail(schedule, e, lang) {
   const obj = {
-    title: e.title,
+    displayTitle: (getCourseTitle(schedule, e.code, lang) || e.title || ''),
+    title_en: getCourseTitle(schedule, e.code, 'en') || null,
+    title_zh: getCourseTitle(schedule, e.code, 'zh') || null,
+    title_raw: e.title,
     code: e.code,
     type: e.type,
     day: e.day,
@@ -128,7 +139,7 @@ function renderWarnings(container, warnings) {
   }
 }
 
-function renderGrid({ gridEl, detailEl, schedule, week, query }) {
+function renderGrid({ gridEl, detailEl, schedule, week, query, lang }) {
   const days = schedule.days;
   const slots = schedule.slots;
   const events = schedule.events.map(normalizeEvent);
@@ -172,7 +183,8 @@ function renderGrid({ gridEl, detailEl, schedule, week, query }) {
       list.sort((a,b) => (a.code||'').localeCompare(b.code||''));
       for (const e of list) {
         const card = el('div', 'event');
-        const title = el('div', 'etitle', e.code ? `${e.code} ${e.title}` : e.title);
+        const displayTitle = (getCourseTitle(schedule, e.code, lang) || e.title || '');
+        const title = el('div', 'etitle', e.code ? `${e.code} ${displayTitle}` : displayTitle);
         const meta = el('div', 'emeta');
         if (e.weeks) meta.appendChild(el('span', 'pill', e.weeks));
         if (e.location) meta.appendChild(el('span', 'pill', e.location));
@@ -180,7 +192,7 @@ function renderGrid({ gridEl, detailEl, schedule, week, query }) {
         card.appendChild(title);
         card.appendChild(meta);
         card.addEventListener('click', () => {
-          detailEl.textContent = formatEventDetail(e);
+          detailEl.textContent = formatEventDetail(schedule, e, lang);
         });
         c.appendChild(card);
       }
@@ -196,6 +208,7 @@ async function main() {
 
   const weekSelect = document.getElementById('weekSelect');
   const searchInput = document.getElementById('searchInput');
+  const langSelect = document.getElementById('langSelect');
   const todayBtn = document.getElementById('todayBtn');
   const addBtn = document.getElementById('addBtn');
   const exportBtn = document.getElementById('exportBtn');
@@ -256,6 +269,7 @@ async function main() {
 
   let week = 1;
   let query = '';
+  let lang = 'zh';
   let editingIndex = null; // index in schedule.events
 
   const openDialogFor = (idx) => {
@@ -308,7 +322,8 @@ async function main() {
       detailEl,
       schedule,
       week,
-      query
+      query,
+      lang
     });
 
     const warnings = detectConflicts(visible.map(normalizeEvent), schedule.days, schedule.slots);
@@ -322,6 +337,21 @@ async function main() {
     // next tick measure scroll
     requestAnimationFrame(updateScrollHint);
   };
+
+  // language persisted
+  const LS_LANG = 'timetable.lang.v1';
+  try {
+    const savedLang = localStorage.getItem(LS_LANG);
+    if (savedLang === 'en' || savedLang === 'zh') lang = savedLang;
+  } catch {}
+  if (langSelect) {
+    langSelect.value = lang;
+    langSelect.addEventListener('change', () => {
+      lang = langSelect.value;
+      try { localStorage.setItem(LS_LANG, lang); } catch {}
+      rerender();
+    });
+  }
 
   weekSelect.value = '1';
   weekSelect.addEventListener('change', () => {
