@@ -90,25 +90,14 @@ body{
   user-select: none;
 }
 
-/* 右侧渐隐提示还有内容 */
-.grid-wrap::after{
-  content: "";
-  position: sticky;
-  right: 0;
-  top: 0;
-  float: right;
-  width: 42px;
-  height: 100%;
-  pointer-events: none;
-  background: linear-gradient(90deg, rgba(17,25,54,0), rgba(11,16,32,.85));
-}
+/* (removed) gradient overlay to avoid scroll/layout issues on some browsers */
 
 .grid{
   display:grid;
-  grid-template-columns: 110px repeat(6, minmax(140px, 1fr));
-  /* 让 grid 宽度随内容增长，配合 grid-wrap 横向滚动 */
-  width: max-content;
-  min-width: 100%;
+  /* 用固定列宽保证一定能产生横向滚动；避免 minmax(..., 1fr) 在窄屏下被压缩导致“看起来划不动” */
+  grid-template-columns: 110px repeat(6, 220px);
+  min-width: calc(110px + 6 * 220px);
+  width: 100%;
 }
 
 .cell{
