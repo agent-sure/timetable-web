@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>课程表查看器 (W1-W16)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="title">课程表查看器</div>
+        <div class="subtitle">按周查看（W1–W16），数据来自 schedule.json（可自行修正）</div>
+      </div>
+
+      <div class="controls">
+        <label class="control">
+          周次
+          <select id="weekSelect"></select>
+        </label>
+        <label class="control">
+          搜索
+          <input id="searchInput" placeholder="课程名 / 课程号 / 教室" />
+        </label>
+        <button id="todayBtn" class="btn" type="button">跳到 W1</button>
+        <button id="addBtn" class="btn" type="button">新增课程</button>
+        <button id="exportBtn" class="btn" type="button">导出 JSON</button>
+      </div>
+    </header>
+
+    <dialog id="eventDialog" class="dialog">
+      <form method="dialog" id="eventForm" class="dialog-form">
+        <div class="dialog-title" id="dialogTitle">新增/编辑课程</div>
+        <div class="dialog-grid">
+          <label>课程名
+            <input name="title" required />
+          </label>
+          <label>课程号
+            <input name="code" />
+          </label>
+          <label>类型（lec/td/lab）
+            <input name="type" />
+          </label>
+          <label>地点
+            <input name="location" />
+          </label>
+          <label>周几
+            <select name="day"></select>
+          </label>
+          <label>节次
+            <select name="slot"></select>
+          </label>
+          <label>周次（如 W9-16 / W12 / W1-6;W9-10）
+            <input name="weeks" placeholder="W1-16" />
+          </label>
+          <label>备注
+            <input name="notes" />
+          </label>
+        </div>
+        <div class="dialog-actions">
+          <button type="button" id="deleteBtn" class="btn danger">删除</button>
+          <div class="spacer"></div>
+          <button type="button" id="cancelBtn" class="btn">取消</button>
+          <button type="submit" class="btn primary">保存</button>
+        </div>
+      </form>
+    </dialog>
+
+    <main class="container">
+      <section class="grid-wrap">
+        <div id="grid" class="grid"></div>
+      </section>
+
+      <aside class="sidebar">
+        <div class="card">
+          <div class="card-title">说明</div>
+          <ul class="hint">
+            <li>左侧是节次/时间，上方是周几。</li>
+            <li>选择周次后，只显示该周生效的课程块。</li>
+            <li>点击课程块可以查看详情。</li>
+            <li>要修正识别错误：直接编辑 <code>schedule.json</code>。</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-title">课程详情</div>
+          <pre id="detail" class="detail">点击任意课程块查看…</pre>
+        </div>
+
+        <div class="card">
+          <div class="card-title">快速校验</div>
+          <div id="warnings" class="warnings"></div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

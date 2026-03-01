@@ -1,0 +1,873 @@
+{
+  "weeks": 16,
+  "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ],
+  "slots": [
+    {
+      "id": "1-2",
+      "label": "Class 1-2",
+      "start": "08:00",
+      "end": "09:40"
+    },
+    {
+      "id": "3-4",
+      "label": "Class 3-4",
+      "start": "10:00",
+      "end": "11:40"
+    },
+    {
+      "id": "5-6",
+      "label": "Class 5-6",
+      "start": "14:00",
+      "end": "15:40"
+    },
+    {
+      "id": "7-8",
+      "label": "Class 7-8",
+      "start": "16:00",
+      "end": "17:40"
+    },
+    {
+      "id": "9-10",
+      "label": "Class 9-10",
+      "start": "18:00",
+      "end": "19:40"
+    },
+    {
+      "id": "11-12",
+      "label": "Class 11-12",
+      "start": "20:00",
+      "end": "21:40"
+    },
+    {
+      "id": "1-4",
+      "label": "Class 1-4",
+      "start": "08:00",
+      "end": "11:40"
+    },
+    {
+      "id": "5-8",
+      "label": "Class 5-8",
+      "start": "14:00",
+      "end": "17:40"
+    }
+  ],
+  "events": [
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Mon",
+      "slot": "0-11",
+      "weeks": "",
+      "location": "",
+      "notes": "Mon. 10:00-11:40 & 16:00-17:40, 4TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Wed",
+      "slot": "0-17",
+      "weeks": "",
+      "location": "",
+      "notes": "Wed. 14:00-17:40, 4TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Thu",
+      "slot": "0-17",
+      "weeks": "",
+      "location": "",
+      "notes": "Thu. 16:00-17:40, 2TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Fri",
+      "slot": "0-11",
+      "weeks": "",
+      "location": "",
+      "notes": "Fri. 8:00-11:40, 4TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Mon",
+      "slot": "0-11",
+      "weeks": "",
+      "location": "",
+      "notes": "Mon. 10:00-11:40 & 16:00-17:40, 4TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Wed",
+      "slot": "0-17",
+      "weeks": "",
+      "location": "",
+      "notes": "Wed. 14:00-17:40, 4TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Thu",
+      "slot": "0-17",
+      "weeks": "",
+      "location": "",
+      "notes": "Thu. 14:00-17:40  4TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Fri",
+      "slot": "0-9",
+      "weeks": "",
+      "location": "",
+      "notes": "Fri. 8:00-9:40, 2TH"
+    },
+    {
+      "code": "FL3606P",
+      "title": "European History and Culture: An Intercultural Communication Perspective",
+      "type": "",
+      "day": "Mon",
+      "slot": "0-11",
+      "weeks": "",
+      "location": "",
+      "notes": "Jun.8: Mon. 10:00-11:40 & 16:00-17:40, 4TH"
+    },
+    {
+      "code": "FL3607P",
+      "title": "Art, Nature and Engineering",
+      "type": "",
+      "day": "Mon",
+      "slot": "9-10",
+      "weeks": "W1-16",
+      "location": "东中院3-404",
+      "notes": ""
+    },
+    {
+      "code": "FL3608P",
+      "title": "Applied Linguistics for AI",
+      "type": "",
+      "day": "Mon",
+      "slot": "9-10",
+      "weeks": "W1-16",
+      "location": "东中院3-405",
+      "notes": ""
+    },
+    {
+      "code": "FL3805P",
+      "title": "French Practical Speaking and Listening (2)",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "",
+      "notes": "W1-16: Tue.7-8，"
+    },
+    {
+      "code": "FL3807P",
+      "title": "Introduction to French Cinema",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院202",
+      "notes": "W1-16: Tue.7-8，下院202"
+    },
+    {
+      "code": "FL3807P",
+      "title": "Introduction to French Cinema",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院201",
+      "notes": "W1-16: Tue.9-10，下院201"
+    },
+    {
+      "code": "FL3811P",
+      "title": "Introduction to French Literature",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院203",
+      "notes": "W1-16: Tue.7-8，下院203"
+    },
+    {
+      "code": "FL3812P",
+      "title": "Introduction to French Arts",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院202",
+      "notes": "W1-16: Tue.9-10，下院202"
+    },
+    {
+      "code": "FL3815P",
+      "title": "Introduction to Linguistics",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院204",
+      "notes": "W1-16: Tue.9-10，下院204"
+    },
+    {
+      "code": "FL3816P",
+      "title": "Introduction to French Game Study",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院204",
+      "notes": "W1-16: Tue.7-8，下院204"
+    },
+    {
+      "code": "FL3816P",
+      "title": "Introduction to French Game Study",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院301",
+      "notes": "W1-16: Tue.9-10，下院301"
+    },
+    {
+      "code": "FL3820P",
+      "title": "Business French",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "下院301",
+      "notes": "W1-16: Tue.7-8，下院301"
+    },
+    {
+      "code": "MATH3307P",
+      "title": "Probability & Statistics",
+      "type": "Lec",
+      "day": "Tue",
+      "slot": "3-4",
+      "weeks": "W1-16",
+      "location": "东下院115",
+      "notes": "Tue. 3-4 (W1-16)，东下院115"
+    },
+    {
+      "code": "MATH3307P",
+      "title": "Probability & Statistics",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "1-2",
+      "weeks": "W1-16",
+      "location": "东中院1-301",
+      "notes": "TD-ME+EPE:Thu.1-2 (W1-16)， 东中院1-301"
+    },
+    {
+      "code": "MATH3307P",
+      "title": "Probability & Statistics",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "3-4",
+      "weeks": "W1-16",
+      "location": "东中院1-301",
+      "notes": "TD-IE:Thu.3-4 (W1-16)，东中院1-301"
+    },
+    {
+      "code": "MATH3307P",
+      "title": "Probability & Statistics",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "1-2",
+      "weeks": "W1-16",
+      "location": "东中院3-202",
+      "notes": "TD-ME+EPE:Thu.1-2 (W1-16)，东中院3-202"
+    },
+    {
+      "code": "MATH3307P",
+      "title": "Probability & Statistics",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "3-4",
+      "weeks": "W1-16",
+      "location": "东中院3-202",
+      "notes": "TD-IE:Thu.3-4 (W1-16)，东中院3-202"
+    },
+    {
+      "code": "MATH3306P",
+      "title": "Optimisation",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-2",
+      "weeks": "W9-16",
+      "location": "东下院115",
+      "notes": "Tue. 1-2 (W9-16)，东下院115"
+    },
+    {
+      "code": "MATH3306P",
+      "title": "Optimisation",
+      "type": "",
+      "day": "Fri",
+      "slot": "9-10",
+      "weeks": "W9;W11;W13;W15",
+      "location": "东下院105",
+      "notes": "Fri. 9-10 (9, 11, 13,15)，东下院105"
+    },
+    {
+      "code": "MATH3306P",
+      "title": "Optimisation",
+      "type": "",
+      "day": "Fri",
+      "slot": "7-8",
+      "weeks": "W10;W12;W14;W16",
+      "location": "东中院3-406",
+      "notes": "Fri 7-8 (W10,12,14,16)，东中院3-406"
+    },
+    {
+      "code": "MATH3306P",
+      "title": "Optimisation",
+      "type": "",
+      "day": "Fri",
+      "slot": "9-10",
+      "weeks": "W10;W12;W14;W16",
+      "location": "东中院3-406",
+      "notes": "Fri 9-10 (W10,12,14,16) ，东中院3-406"
+    },
+    {
+      "code": "MATH3306P",
+      "title": "Optimisation",
+      "type": "",
+      "day": "Fri",
+      "slot": "7-8",
+      "weeks": "W10;W12;W14;W16",
+      "location": "东中院4-504",
+      "notes": "Fri 7-8 (W10,12,14,16)，东中院4-504"
+    },
+    {
+      "code": "MATH3306P",
+      "title": "Optimisation",
+      "type": "",
+      "day": "Fri",
+      "slot": "9-10",
+      "weeks": "W10;W12;W14;W16",
+      "location": "东中院4-504",
+      "notes": "Fri 9-10 (W10,12,14,16)，东中院4-504"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Thu",
+      "slot": "0-17",
+      "weeks": "",
+      "location": "",
+      "notes": "May7th: Thu.: 3 hours (4TH) lecture from 14:00-17:00;"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Fri",
+      "slot": "0-9",
+      "weeks": "",
+      "location": "",
+      "notes": "Fri. 2TH Lec.from 8:00-9:40;"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Mon",
+      "slot": "0-11",
+      "weeks": "",
+      "location": "",
+      "notes": "Mon/Sat.: 4TH lab from 8:00-11:00 (Working day after labor day)"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Mon",
+      "slot": "0-9",
+      "weeks": "",
+      "location": "",
+      "notes": "11th (Mon): 2TH Lab from 8:00-9:40 & 2TH Lec from 10:00-11:40;"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Thu",
+      "slot": "0-17",
+      "weeks": "",
+      "location": "",
+      "notes": "14th (Thu.)  4TH from 14:00-17:00"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Fri",
+      "slot": "0-11",
+      "weeks": "",
+      "location": "",
+      "notes": "15th (Fri) 4TH lab from 8:00-11:00"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Mon",
+      "slot": "0-11",
+      "weeks": "",
+      "location": "",
+      "notes": "18th (Mon): 4TH Lec from 8:00-11:00;"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Thu",
+      "slot": "0-17",
+      "weeks": "",
+      "location": "",
+      "notes": "21st (Thu.) 4TH from 14:00-17:00;"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Fri",
+      "slot": "0-9",
+      "weeks": "",
+      "location": "",
+      "notes": "22th (Fri) 2TH Lec from 8:00-9:40"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Mon",
+      "slot": "1-4",
+      "weeks": "",
+      "location": "SPEIT学院楼103",
+      "notes": "Mon/Sat. 1-4, 4TH lab (Working day after labor day)，SPEIT学院楼103"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Mon",
+      "slot": "1-2",
+      "weeks": "",
+      "location": "SPEIT学院楼103",
+      "notes": "Mon 1-2, 2TH Lab from 8:00-9:40，SPEIT学院楼103"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "",
+      "day": "Fri",
+      "slot": "1-4",
+      "weeks": "",
+      "location": "SPEIT学院楼103",
+      "notes": "Fri 1-4, 4TH lab from 8:00-11:00，SPEIT学院楼103"
+    },
+    {
+      "code": "MATH4401P",
+      "title": "Functional Analysis and Partial Differential Equation Discretization",
+      "type": "Proj",
+      "day": "Thu",
+      "slot": "15-16",
+      "weeks": "",
+      "location": "SPEIT学院楼102+103",
+      "notes": "Week 15-16:   project, Thu. 7-10, Fri.1-4，SPEIT学院楼102+103"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "Lec",
+      "day": "Wed",
+      "slot": "1-8",
+      "weeks": "W1-8",
+      "location": "东下院212",
+      "notes": "W1-8: Wed 3-4，东下院212"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "3-4",
+      "weeks": "W2;W4;W6;W8",
+      "location": "东下院212",
+      "notes": "ME: W2,4,6,8: Thu 3-4，东下院212"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "TD",
+      "day": "Fri",
+      "slot": "3-4",
+      "weeks": "W2;W4;W6;W8",
+      "location": "东下院212",
+      "notes": "EPE: W2,4,6,8: Fri 3-4, 东下院212"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "Lec",
+      "day": "Wed",
+      "slot": "9-14",
+      "weeks": "W9-14",
+      "location": "东下院212",
+      "notes": "W9-14: Wed 3-4， 东下院212"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "3-4",
+      "weeks": "W10;W12;W14",
+      "location": "东下院212",
+      "notes": "ME: W10,12,14: Thu 3-4，东下院212"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "TD",
+      "day": "Fri",
+      "slot": "3-4",
+      "weeks": "W10;W12;W14",
+      "location": "东下院212",
+      "notes": "EPE: W10,12,14: Fri 3-4，东下院212"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "TP",
+      "day": "Wed",
+      "slot": "7-8",
+      "weeks": "W12;W15-16",
+      "location": "",
+      "notes": "W12,15,16: Wed 7-8，EPE"
+    },
+    {
+      "code": "PHY3403P",
+      "title": "Statistical Physics and Transport Phenomena",
+      "type": "TP",
+      "day": "Wed",
+      "slot": "9-10",
+      "weeks": "W12;W15-16",
+      "location": "",
+      "notes": "W12,15,16: Wed 9-10，ME"
+    },
+    {
+      "code": "PHY3402P",
+      "title": "Fundamentals of Fluid Mechanics",
+      "type": "Lec",
+      "day": "Thu",
+      "slot": "1-2",
+      "weeks": "W1-2",
+      "location": "东下院212",
+      "notes": "W1-2: Thu.7-8，东下院212"
+    },
+    {
+      "code": "ME4403P",
+      "title": "Mechanics of Continuum Media",
+      "type": "",
+      "day": "Mon",
+      "slot": "7-8",
+      "weeks": "W1-16",
+      "location": "学院楼102+103",
+      "notes": ""
+    },
+    {
+      "code": "ME4401P",
+      "title": "Fundamentals of Materials Science",
+      "type": "",
+      "day": "Wed",
+      "slot": "0-17",
+      "weeks": "W6-7",
+      "location": "下院212",
+      "notes": "W6&7: Wed 14:00-17:00 (4TH) , Thu. 7-8, Fri. 1-2,东下院 212"
+    },
+    {
+      "code": "ME4401P",
+      "title": "Fundamentals of Materials Science",
+      "type": "",
+      "day": "Wed",
+      "slot": "0-17",
+      "weeks": "W8",
+      "location": "东下院212",
+      "notes": "W8: Wed 14:00-17:00 (4TH) , Thu.7-8, Fri. 1-2，东下院212"
+    },
+    {
+      "code": "ME4401P",
+      "title": "Fundamentals of Materials Science",
+      "type": "",
+      "day": "Wed",
+      "slot": "10-11",
+      "weeks": "W10-11",
+      "location": "材料学院lab",
+      "notes": "W10-11: Wed afternoon, TP in 2 groups，材料学院lab"
+    },
+    {
+      "code": "ME4401P",
+      "title": "Fundamentals of Materials Science",
+      "type": "",
+      "day": "Wed",
+      "slot": "10-11",
+      "weeks": "W10-11",
+      "location": "材料学院lab",
+      "notes": "W10-11: Wed afternoon, TP in 2 groups，材料学院lab"
+    },
+    {
+      "code": "ME4405P",
+      "title": "Mechanics of Materials",
+      "type": "",
+      "day": "Thu",
+      "slot": "9-12",
+      "weeks": "W9-12",
+      "location": "东中院4-201",
+      "notes": "W9-12: Thu.12-13,  下院 211；Fri. 7-8，东中院4-201"
+    },
+    {
+      "code": "ME4405P",
+      "title": "Mechanics of Materials",
+      "type": "",
+      "day": "Thu",
+      "slot": "13-16",
+      "weeks": "W13-16",
+      "location": "东中院4-201",
+      "notes": "W13-16: Thu 12-13, 下院 211；Fri. 7-8，东中院4-201"
+    },
+    {
+      "code": "PE4403P",
+      "title": "World Energy Issues - Technological Solutions",
+      "type": "",
+      "day": "Thu",
+      "slot": "9-10",
+      "weeks": "W1",
+      "location": "",
+      "notes": "W1 Lec.: Thu. 9-10, Fri. 7-10"
+    },
+    {
+      "code": "PE4403P",
+      "title": "World Energy Issues - Technological Solutions",
+      "type": "",
+      "day": "Thu",
+      "slot": "7-10",
+      "weeks": "W3",
+      "location": "",
+      "notes": "W3 Lec.: Thu. 7-10. Fri. 7-10"
+    },
+    {
+      "code": "PE4403P",
+      "title": "World Energy Issues - Technological Solutions",
+      "type": "",
+      "day": "Thu",
+      "slot": "7-10",
+      "weeks": "W5",
+      "location": "",
+      "notes": "W5 TP: Thu.7-10"
+    },
+    {
+      "code": "PE4403P",
+      "title": "World Energy Issues - Technological Solutions",
+      "type": "",
+      "day": "Fri",
+      "slot": "7-10",
+      "weeks": "W6",
+      "location": "",
+      "notes": "W6 Lec: Fri. 7-10"
+    },
+    {
+      "code": "PE4403P",
+      "title": "World Energy Issues - Technological Solutions",
+      "type": "",
+      "day": "Thu",
+      "slot": "9-10",
+      "weeks": "W7",
+      "location": "",
+      "notes": "W7 TP: Thu.9-10, Fri.7-10"
+    },
+    {
+      "code": "PE4403P",
+      "title": "World Energy Issues - Technological Solutions",
+      "type": "",
+      "day": "Wed",
+      "slot": "7-10",
+      "weeks": "W9",
+      "location": "",
+      "notes": "W9 TP: Wed.7-10 (Defense)"
+    },
+    {
+      "code": "PE4404P",
+      "title": "Fundamental Aspects of Combustion",
+      "type": "",
+      "day": "Mon",
+      "slot": "1-2",
+      "weeks": "W4-9",
+      "location": "东下院212",
+      "notes": ""
+    },
+    {
+      "code": "PE4408P",
+      "title": "Engineering Thermodynamic",
+      "type": "",
+      "day": "Tue",
+      "slot": "1-8",
+      "weeks": "W1-8",
+      "location": "东下院504",
+      "notes": "W1-8: Tue. 1-2，东下院504"
+    },
+    {
+      "code": "PE4408P",
+      "title": "Engineering Thermodynamic",
+      "type": "",
+      "day": "Thu",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "东下院504",
+      "notes": "W1-16: Thu. 3-4，东下院504"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "",
+      "day": "Mon",
+      "slot": "3-4",
+      "weeks": "W8",
+      "location": "东中院3-406",
+      "notes": "W8: Mon. 3-4, Tue 1-2, Wed.1-2, Thu.9-10, Fri 3-4，东中院3-406"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "",
+      "day": "Mon",
+      "slot": "3-4",
+      "weeks": "W9",
+      "location": "东中院3-406",
+      "notes": "W9: Mon. 3-4,Wed.1-2&7-8, Thu.1-2，东中院3-406"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "",
+      "day": "Mon",
+      "slot": "3-4",
+      "weeks": "W8",
+      "location": "",
+      "notes": "W8: Mon. 3-4,Tue 1-2, Wed.1-2, Thu.9-10, Fri 3-4，东中4-504"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "",
+      "day": "Mon",
+      "slot": "3-4",
+      "weeks": "W9",
+      "location": "",
+      "notes": "W9: Mon. 3-4,Wed.1-2&7-8, Thu.1-2，东中4-504"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "",
+      "day": "Wed",
+      "slot": "7-8",
+      "weeks": "W10",
+      "location": "东中院3-406",
+      "notes": "W10: Wed.7-8，东中院3-406"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "TP：",
+      "day": "Wed",
+      "slot": "0-16",
+      "weeks": "",
+      "location": "",
+      "notes": "IE1: Wed 13:00-16:00, 4TH, LE"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "TP：",
+      "day": "Wed",
+      "slot": "0-19",
+      "weeks": "",
+      "location": "",
+      "notes": "IE2: Wed 16:00- 19:00, 4TH, LE"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "TP：",
+      "day": "Wed",
+      "slot": "0-16",
+      "weeks": "",
+      "location": "",
+      "notes": "IE1: Wed 13:00-16:00, 4TH, LE"
+    },
+    {
+      "code": "ICE4408P",
+      "title": "Advanced Electronics",
+      "type": "TP：",
+      "day": "Wed",
+      "slot": "0-19",
+      "weeks": "",
+      "location": "",
+      "notes": "IE2: Wed 16:00- 19:00, 4TH, LE"
+    },
+    {
+      "code": "ICE4405P",
+      "title": "Digital Signal Processing",
+      "type": "",
+      "day": "Mon",
+      "slot": "1-16",
+      "weeks": "W1-16",
+      "location": "东中院3-204",
+      "notes": "W1-16: Mon. 1-2，东中院3-204"
+    },
+    {
+      "code": "ICE4405P",
+      "title": "Digital Signal Processing",
+      "type": "",
+      "day": "Thu",
+      "slot": "1-8",
+      "weeks": "W1-8",
+      "location": "东中院3-204",
+      "notes": "W1-8: Thu.1-2，东中院3-204"
+    },
+    {
+      "code": "ICE4414P",
+      "title": "Computer  Architecture",
+      "type": "",
+      "day": "Thu",
+      "slot": "11-13",
+      "weeks": "W1-16",
+      "location": "东中院3-206",
+      "notes": ""
+    }
+  ]
+}

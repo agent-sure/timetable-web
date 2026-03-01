@@ -1,0 +1,573 @@
+{
+  "weeks": 16,
+  "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ],
+  "slots": [
+    {
+      "id": "1-2",
+      "label": "Class 1-2",
+      "start": "08:00",
+      "end": "09:40"
+    },
+    {
+      "id": "3-4",
+      "label": "Class 3-4",
+      "start": "10:00",
+      "end": "11:40"
+    },
+    {
+      "id": "5-6",
+      "label": "Class 5-6",
+      "start": "12:00",
+      "end": "13:40"
+    },
+    {
+      "id": "7-8",
+      "label": "Class 7-8",
+      "start": "14:00",
+      "end": "15:40"
+    },
+    {
+      "id": "9-10",
+      "label": "Class 9-10",
+      "start": "16:00",
+      "end": "17:40"
+    },
+    {
+      "id": "11-12",
+      "label": "Class 11-12",
+      "start": "18:00",
+      "end": "19:40"
+    },
+    {
+      "id": "11-13",
+      "label": "Class 11-13",
+      "start": "18:00",
+      "end": "20:20"
+    },
+    {
+      "id": "1-4",
+      "label": "Class 1-4",
+      "start": "08:00",
+      "end": "11:40"
+    },
+    {
+      "id": "5-8",
+      "label": "Class 5-8",
+      "start": "14:00",
+      "end": "17:40"
+    }
+  ],
+  "events": [
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE),   Habibou.M, W12, ,学院102+103",
+      "code": "MATH4401P",
+      "type": "Lab",
+      "day": "Mon",
+      "slot": "1-2",
+      "weeks": "W10-12",
+      "location": "学院103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE),   Habibou.M, W12, ,学院102+103\n W10-11-Lab: ME- Habitou. M，学院102\nW10-11-Lab:  EPE- Zied M. , 学院103"
+    },
+    {
+      "title": "Optimisation (All), lec, KONG Sijia, W9-16，东下院115",
+      "code": "MATH3306P",
+      "type": "Lec",
+      "day": "Tue",
+      "slot": "1-2",
+      "weeks": "W9-16",
+      "location": "东下院115",
+      "notes": "MATH3306P-Optimisation (All), lec, KONG Sijia, W9-16，东下院115"
+    },
+    {
+      "title": "French Practical Writing (2) (FR), W1-16",
+      "code": "FL3804P",
+      "type": "",
+      "day": "Wed",
+      "slot": "1-2",
+      "weeks": "W1-16",
+      "location": "东上院503",
+      "notes": "FL3804P-French Practical Writing (2) (FR), W1-16\nF1 (ME) -Louis , 东上院501\nF2 (EPE) - Jean,  东上院503"
+    },
+    {
+      "title": "Probability & statistics (All), TD/TP, W1-16",
+      "code": "MATH3307P",
+      "type": "TD/TP",
+      "day": "Thu",
+      "slot": "1-2",
+      "weeks": "W1-16",
+      "location": "东中院3-202",
+      "notes": "MATH3307P-Probability & statistics (All), TD/TP, W1-16\nME-  (odd) Liwei,  (even) Hamza，东中院1-301\nEPE -  (odd) Hamza,  (even)  Liwei,   东中院3-202"
+    },
+    {
+      "title": "Fundamentals of Materials Science (ME+EPE), W6-7, A. Borbley; W8,  ZHONG Shengyi， 东下院212",
+      "code": "ME4401P",
+      "type": "",
+      "day": "Fri",
+      "slot": "1-2",
+      "weeks": "W6-8",
+      "location": "东下院212",
+      "notes": "ME4401P-Fundamentals of Materials Science (ME+EPE), W6-7, A. Borbley; W8,  ZHONG Shengyi， 东下院212"
+    },
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE),  Lec. W10,12 学院102+103",
+      "code": "MATH4401P",
+      "type": "Lec",
+      "day": "Fri",
+      "slot": "1-2",
+      "weeks": "W10-12;W15-16",
+      "location": "学院102+103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE),  Lec. W10,12 学院102+103\nLab, W11, ME- Habitou. M，学院102\nLab, W11, EPE- Zied M. 学院103\nProject, W15-16, Zied, 学院102+103"
+    },
+    {
+      "title": "European History, Eva L. W13-14，东下院212",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Fri",
+      "slot": "1-2",
+      "weeks": "W13-14",
+      "location": "东下院212",
+      "notes": "FL3606P-European History, Eva L. W13-14，东下院212"
+    },
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE),  Lab. W10，学院102+103",
+      "code": "MATH4401P",
+      "type": "Lab",
+      "day": "Sat",
+      "slot": "1-2",
+      "weeks": "W10",
+      "location": "学院102+103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE),  Lab. W10，学院102+103"
+    },
+    {
+      "title": "European History , Eva L., W13-15，东下院212",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Mon",
+      "slot": "3-4",
+      "weeks": "W13-15",
+      "location": "东下院212",
+      "notes": "FL3606P-European History , Eva L., W13-15，东下院212"
+    },
+    {
+      "title": "Fundamentals of Fluid Mechanics (ME+EPE), Lec, SHI Qiwei, W1-8, 东下院212",
+      "code": "PHY3402P",
+      "type": "Lec",
+      "day": "Mon",
+      "slot": "3-4",
+      "weeks": "W1-8",
+      "location": "东下院212",
+      "notes": "PHY3402P-Fundamentals of Fluid Mechanics (ME+EPE), Lec, SHI Qiwei, W1-8, 东下院212"
+    },
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE),  Lec, Habibou.M, W11&12，学院102+103",
+      "code": "MATH4401P",
+      "type": "Lec",
+      "day": "Mon",
+      "slot": "3-4",
+      "weeks": "W11-12",
+      "location": "学院102+103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE),  Lec, Habibou.M, W11&12，学院102+103"
+    },
+    {
+      "title": "Probability & statistics (All), lec, ZHANG Liwei, W1-16, 东下院115",
+      "code": "MATH3307P",
+      "type": "Lec",
+      "day": "Tue",
+      "slot": "3-4",
+      "weeks": "W1-16",
+      "location": "东下院115",
+      "notes": "MATH3307P-Probability & statistics (All), lec, ZHANG Liwei, W1-16, 东下院115"
+    },
+    {
+      "title": "Statistical Physics and Transport Phenomena (ME+EPE), lec,  东下院212",
+      "code": "PHY3403P",
+      "type": "Lec",
+      "day": "Wed",
+      "slot": "3-4",
+      "weeks": "W1-14",
+      "location": "东下院212",
+      "notes": "PHY3403P-Statistical Physics and Transport Phenomena (ME+EPE), lec,  东下院212\nW1-8,   SHAO Lingxuan\nW9-14, WANG Shaobo"
+    },
+    {
+      "title": "Fundamentals of Fluid Mechanics (ME+EPE),",
+      "code": "PHY3402P",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "3-4",
+      "weeks": "W3;W5;W7",
+      "location": "东下院212",
+      "notes": "PHY3402P-Fundamentals of Fluid Mechanics (ME+EPE),\nW3,5,7, TD (ME), SHI Qiwei,  东下院212"
+    },
+    {
+      "title": "Statistical Physics and Transport Phenomena (ME+EPE),",
+      "code": "PHY3403P",
+      "type": "TD",
+      "day": "Thu",
+      "slot": "3-4",
+      "weeks": "W2;W4;W6;W8;W10;W12;W14",
+      "location": "东下院212",
+      "notes": "PHY3403P-Statistical Physics and Transport Phenomena (ME+EPE),\nW2,4,6,8, TD (ME),  SHAO Lingxuan, 东下院212\nW10,12,14,TD (ME),  WANG Shaobo, 东下院212"
+    },
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE),  Lab, Habibou.M, W11，学院102+103",
+      "code": "MATH4401P",
+      "type": "Lab",
+      "day": "Fri",
+      "slot": "3-4",
+      "weeks": "W11;W15-16",
+      "location": "学院102+103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE),  Lab, Habibou.M, W11，学院102+103\nME- Habitou. M， 学院102\nEPE-  Zied M., 学院103\nProject, W15-16, Zied, 学院102+103"
+    },
+    {
+      "title": "European History , Eva L., W13，东下院212",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Fri",
+      "slot": "3-4",
+      "weeks": "W13",
+      "location": "东下院212",
+      "notes": "FL3606P-European History , Eva L., W13，东下院212"
+    },
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE),  Lab. W10，学院102+103",
+      "code": "MATH4401P",
+      "type": "Lab",
+      "day": "Sat",
+      "slot": "3-4",
+      "weeks": "W10",
+      "location": "学院102+103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE),  Lab. W10，学院102+103"
+    },
+    {
+      "title": "Mechanics of Continuum Media (ME+EPE), Zied Moumni, W1-16，学院楼102+103",
+      "code": "ME4403P",
+      "type": "",
+      "day": "Mon",
+      "slot": "7-8",
+      "weeks": "W1-16",
+      "location": "学院楼102+103",
+      "notes": "ME4403P-Mechanics of Continuum Media (ME+EPE), Zied Moumni, W1-16，学院楼102+103"
+    },
+    {
+      "title": "Speaking and Listening (2),  Julien, 下院201",
+      "code": "FL3805P",
+      "type": "",
+      "day": "Tue",
+      "slot": "7-8",
+      "weeks": "W1-16",
+      "location": "下院201",
+      "notes": "FL3805P-Speaking and Listening (2),  Julien, 下院201"
+    },
+    {
+      "title": "French Cinema, Class1,  Audrey, 下院202",
+      "code": "FL3807P",
+      "type": "",
+      "day": "Tue",
+      "slot": "7-8",
+      "weeks": "W1-16",
+      "location": "下院202",
+      "notes": "FL3807P-French Cinema, Class1,  Audrey, 下院202"
+    },
+    {
+      "title": "French Literature, Justine, 下院203",
+      "code": "FL3811P",
+      "type": "",
+      "day": "Tue",
+      "slot": "7-8",
+      "weeks": "W1-16",
+      "location": "下院203",
+      "notes": "FL3811P-French Literature, Justine, 下院203"
+    },
+    {
+      "title": "French Game Study, Class1, Jean, 下院204",
+      "code": "FL3816P",
+      "type": "",
+      "day": "Tue",
+      "slot": "7-8",
+      "weeks": "W1-16",
+      "location": "下院204",
+      "notes": "FL3816P-French Game Study, Class1, Jean, 下院204"
+    },
+    {
+      "title": "Business French, Charlélie  下院301",
+      "code": "FL3820P",
+      "type": "",
+      "day": "Tue",
+      "slot": "7-8",
+      "weeks": "W1-16",
+      "location": "下院301",
+      "notes": "FL3820P-Business French, Charlélie  下院301"
+    },
+    {
+      "title": "European History , Eva L., W13-14 ,14:00-17:40，东下院212",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Wed",
+      "slot": "5-8",
+      "weeks": "W13-14",
+      "location": "东下院212",
+      "notes": "FL3606P-European History , Eva L., W13-14 ,14:00-17:40，东下院212"
+    },
+    {
+      "title": "14:00-17:00: ME4401P-Fundamentals of Materials Science (ME+EPE), Lec. W6-7 by A. Borbley,  W8 by Shengyi, 东下院212",
+      "code": "ME4401P",
+      "type": "Lec",
+      "day": "Wed",
+      "slot": "5-8",
+      "weeks": "W6-8;W10-11",
+      "location": "材料学院lab",
+      "notes": "14:00-17:00: ME4401P-Fundamentals of Materials Science (ME+EPE), Lec. W6-7 by A. Borbley,  W8 by Shengyi, 东下院212\nW10-11 TP in 2 groups, 材料学院lab"
+    },
+    {
+      "title": "Fundamentals of Fluid Mechanics (ME+EPE),",
+      "code": "PHY3402P",
+      "type": "Lec",
+      "day": "Thu",
+      "slot": "7-8",
+      "weeks": "W1-2",
+      "location": "东下院212",
+      "notes": "PHY3402P-Fundamentals of Fluid Mechanics (ME+EPE),\nW1,2, lec, SHI Qiwei,  东下院212"
+    },
+    {
+      "title": "Fundamentals of Materials Science (ME+EPE), W6-7, A. Borbley, W8,  ZHONG Shengyi，东下院212",
+      "code": "ME4401P",
+      "type": "",
+      "day": "Thu",
+      "slot": "7-8",
+      "weeks": "W6-8",
+      "location": "东下院212",
+      "notes": "ME4401P-Fundamentals of Materials Science (ME+EPE), W6-7, A. Borbley, W8,  ZHONG Shengyi，东下院212"
+    },
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE), Lec, Habibou.M, W10-12，学院102+103",
+      "code": "MATH4401P",
+      "type": "Lec",
+      "day": "Thu",
+      "slot": "7-8",
+      "weeks": "W10-12;W15-16",
+      "location": "学院102+103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE), Lec, Habibou.M, W10-12，学院102+103\nProject, W15-16, Zied, 学院102+103"
+    },
+    {
+      "title": "European History , Eva L., W14，东下院212",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Thu",
+      "slot": "7-8",
+      "weeks": "W14",
+      "location": "东下院212",
+      "notes": "FL3606P-European History , Eva L., W14，东下院212"
+    },
+    {
+      "title": "Mechanics of Materials (ME,EPE#),",
+      "code": "ME4405P",
+      "type": "",
+      "day": "Fri",
+      "slot": "7-8",
+      "weeks": "W9-16",
+      "location": "东中院4-201",
+      "notes": "ME4405P-Mechanics of Materials (ME,EPE#),\nW9-12, CHEN Zhe，东中院4-201\nW13-16, SHANG Xiaoqing，东中院4-201"
+    },
+    {
+      "title": "Mechanics of Continuum Media (ME+EPE), Zied Moumni, W10，学院楼102+103",
+      "code": "ME4403P",
+      "type": "",
+      "day": "Sat",
+      "slot": "7-8",
+      "weeks": "W10",
+      "location": "学院楼102+103",
+      "notes": "ME4403P-Mechanics of Continuum Media (ME+EPE), Zied Moumni, W10，学院楼102+103"
+    },
+    {
+      "title": "Art, Nature and Engineering (All#), SHI Wen, W1-16，东中院3-404",
+      "code": "FL3607P",
+      "type": "",
+      "day": "Mon",
+      "slot": "9-10",
+      "weeks": "W1-16",
+      "location": "东中院3-404",
+      "notes": "FL3607P-Art, Nature and Engineering (All#), SHI Wen, W1-16，东中院3-404"
+    },
+    {
+      "title": "Applied Linguistics for AI (All#),  Etienne, W1-16，东中院3-405",
+      "code": "FL3608P",
+      "type": "",
+      "day": "Mon",
+      "slot": "9-10",
+      "weeks": "W1-16",
+      "location": "东中院3-405",
+      "notes": "FL3608P-Applied Linguistics for AI (All#),  Etienne, W1-16，东中院3-405"
+    },
+    {
+      "title": "European History , Eva L., W13-15，东下院212, W16 Defense",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Mon",
+      "slot": "9-10",
+      "weeks": "W13-16",
+      "location": "东下院212",
+      "notes": "FL3606P-European History , Eva L., W13-15，东下院212, W16 Defense"
+    },
+    {
+      "title": "French Cinema, Class2,  Adeline, 下院201",
+      "code": "FL3807P",
+      "type": "",
+      "day": "Tue",
+      "slot": "9-10",
+      "weeks": "",
+      "location": "下院201",
+      "notes": "FL3807P-French Cinema, Class2,  Adeline, 下院201"
+    },
+    {
+      "title": "French Arts, Ren Yi,  下院202",
+      "code": "FL3812P",
+      "type": "",
+      "day": "Tue",
+      "slot": "9-10",
+      "weeks": "",
+      "location": "下院202",
+      "notes": "FL3812P-French Arts, Ren Yi,  下院202"
+    },
+    {
+      "title": "Introduction to linguistics, Yaqiu, 下院204",
+      "code": "FL3815P",
+      "type": "",
+      "day": "Tue",
+      "slot": "9-10",
+      "weeks": "",
+      "location": "下院204",
+      "notes": "FL3815P-Introduction to linguistics, Yaqiu, 下院204"
+    },
+    {
+      "title": "Advanced Language Studies, Louis, 下院304",
+      "code": "FL3822P",
+      "type": "",
+      "day": "Tue",
+      "slot": "9-10",
+      "weeks": "",
+      "location": "下院304",
+      "notes": "FL3822P-Advanced Language Studies, Louis, 下院304"
+    },
+    {
+      "title": "French Game Study, Class2, Charlélie , 下院301",
+      "code": "FL3816P",
+      "type": "",
+      "day": "Tue",
+      "slot": "9-10",
+      "weeks": "",
+      "location": "下院301",
+      "notes": "FL3816P-French Game Study, Class2, Charlélie , 下院301"
+    },
+    {
+      "title": "European History , Eva L., W13-14,14:00-17:40，东下院212",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Wed",
+      "slot": "5-8",
+      "weeks": "W13-14",
+      "location": "东下院212",
+      "notes": "FL3606P-European History , Eva L., W13-14,14:00-17:40，东下院212"
+    },
+    {
+      "title": "Fundamentals of Fluid Mechanics (ME+EPE), SHI Qiwei & WANG Shaobo,",
+      "code": "PHY3402P",
+      "type": "Lab",
+      "day": "Wed",
+      "slot": "9-10",
+      "weeks": "W3-5",
+      "location": "航空学院lab",
+      "notes": "PHY3402P-Fundamentals of Fluid Mechanics (ME+EPE), SHI Qiwei & WANG Shaobo,\nW3,4,5, TP (ME) in 6 groups, 航空学院lab"
+    },
+    {
+      "title": "Statistical Physics and Transport Phenomena (ME+EPE), WANG Shaobo & SHI Qiwei,",
+      "code": "PHY3403P",
+      "type": "Lab",
+      "day": "Wed",
+      "slot": "9-10",
+      "weeks": "W12;W15-16",
+      "location": "航空学院lab",
+      "notes": "PHY3403P-Statistical Physics and Transport Phenomena (ME+EPE), WANG Shaobo & SHI Qiwei,\nW12,15,16, TP (ME) in 6 groups, 航空学院lab"
+    },
+    {
+      "title": "14:00-17:00: ME4401P-Fundamentals of Materials Science (ME+EPE), Lec. W6-7 by A. Borbley,  W8 by Shengyi, 东下院212",
+      "code": "ME4401P",
+      "type": "Lec",
+      "day": "Wed",
+      "slot": "5-8",
+      "weeks": "W6-8;W10-11",
+      "location": "材料学院lab",
+      "notes": "14:00-17:00: ME4401P-Fundamentals of Materials Science (ME+EPE), Lec. W6-7 by A. Borbley,  W8 by Shengyi, 东下院212\nW10-11 TP in 2 groups, 材料学院lab"
+    },
+    {
+      "title": "Functional Analysis and Partial Differential Equation(ME+EPE), Lec, Habibou.M, W10-12，学院102+103",
+      "code": "MATH4401P",
+      "type": "Lec",
+      "day": "Thu",
+      "slot": "9-10",
+      "weeks": "W10-12;W15-16",
+      "location": "学院102+103",
+      "notes": "MATH4401P-Functional Analysis and Partial Differential Equation(ME+EPE), Lec, Habibou.M, W10-12，学院102+103\nProject, W15-16, Zied, 学院102+103"
+    },
+    {
+      "title": "European History , Eva L., W13-14，东下院212",
+      "code": "FL3606P",
+      "type": "",
+      "day": "Thu",
+      "slot": "9-10",
+      "weeks": "W13-14",
+      "location": "东下院212",
+      "notes": "FL3606P-European History , Eva L., W13-14，东下院212"
+    },
+    {
+      "title": "Optimisation (All),",
+      "code": "MATH3306P",
+      "type": "TD/TP",
+      "day": "Fri",
+      "slot": "9-10",
+      "weeks": "W9-16",
+      "location": "东下院105",
+      "notes": "MATH3306P-Optimisation (All),\n Lec. W9,11,13,15,  Sijia, 东下院105\nTD/TP, W10,12,14,16\nME -  Sijia/ Milan,  东中3-406\nEPE- Milan/Sijia, 东中4-504"
+    },
+    {
+      "title": "Art, Nature and Engineering (All#), SHI Wen, W10，东中院3-404",
+      "code": "FL3607P",
+      "type": "",
+      "day": "Sat",
+      "slot": "9-10",
+      "weeks": "W10",
+      "location": "东中院3-404",
+      "notes": "FL3607P-Art, Nature and Engineering (All#), SHI Wen, W10，东中院3-404"
+    },
+    {
+      "title": "Applied Linguistics for AI (All#),  Etienne, W10，东中院3-405",
+      "code": "FL3608P",
+      "type": "",
+      "day": "Sat",
+      "slot": "9-10",
+      "weeks": "W10",
+      "location": "东中院3-405",
+      "notes": "FL3608P-Applied Linguistics for AI (All#),  Etienne, W10，东中院3-405"
+    },
+    {
+      "title": "12-13：18:55-20:10: ME4405P-Mechanics of Materials (ME, EPE#),",
+      "code": "ME4405P",
+      "type": "",
+      "day": "Thu",
+      "slot": "11-12",
+      "weeks": "W9-16",
+      "location": "下院211",
+      "notes": "12-13：18:55-20:10: ME4405P-Mechanics of Materials (ME, EPE#),\nW9-12, CHEN Zhe，下院211\nW13-16, SHANG Xiaoqing，下院211"
+    }
+  ],
+  "source": {
+    "xlsx": "/Users/ssssssure/.openclaw/media/inbound/2025-2026-2_class_schedule_for_Y3_-_course_arrangement_20260---57991569-cca1-42d9-8022-4d177c6fe0d2.xlsx",
+    "sheet": "panoramic2026春ME"
+  }
+}
