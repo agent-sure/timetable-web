@@ -202,6 +202,8 @@ async function main() {
   const gridEl = document.getElementById('grid');
   const gridWrap = document.getElementById('gridWrap');
   const scrollHint = document.getElementById('scrollHint');
+  const hscroll = document.getElementById('hscroll');
+  const hscrollRange = document.getElementById('hscrollRange');
   const detailEl = document.getElementById('detail');
   const warningsEl = document.getElementById('warnings');
 
@@ -279,10 +281,25 @@ async function main() {
     dialog.showModal();
   };
 
+  const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+
   const updateScrollHint = () => {
     if (!gridWrap || !scrollHint) return;
     const need = gridWrap.scrollWidth > gridWrap.clientWidth + 4;
     scrollHint.style.display = need ? 'block' : 'none';
+
+    // update range slider visibility + max
+    if (hscroll && hscrollRange) {
+      hscroll.style.display = need ? 'flex' : 'none';
+      const maxScroll = Math.max(0, gridWrap.scrollWidth - gridWrap.clientWidth);
+      // keep max at 100, map proportion
+      if (maxScroll === 0) {
+        hscrollRange.value = '0';
+      } else {
+        const ratio = gridWrap.scrollLeft / maxScroll;
+        hscrollRange.value = String(Math.round(clamp(ratio, 0, 1) * 100));
+      }
+    }
   };
 
   const rerender = () => {
@@ -395,6 +412,25 @@ async function main() {
   });
 
   window.addEventListener('resize', () => requestAnimationFrame(updateScrollHint));
+
+  // Allow drag-based horizontal scroll via range input
+  if (gridWrap && hscrollRange) {
+    hscrollRange.addEventListener('input', () => {
+      const maxScroll = Math.max(0, gridWrap.scrollWidth - gridWrap.clientWidth);
+      const v = Number(hscrollRange.value || 0) / 100;
+      gridWrap.scrollLeft = Math.round(v * maxScroll);
+    });
+
+    gridWrap.addEventListener('scroll', () => {
+      // keep slider in sync
+      const maxScroll = Math.max(0, gridWrap.scrollWidth - gridWrap.clientWidth);
+      if (maxScroll <= 0) {
+        hscrollRange.value = '0';
+      } else {
+        hscrollRange.value = String(Math.round((gridWrap.scrollLeft / maxScroll) * 100));
+      }
+    }, { passive: true });
+  }
 
   rerender();
 }

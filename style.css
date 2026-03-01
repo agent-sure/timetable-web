@@ -70,11 +70,20 @@ body{
   border: 1px solid var(--line);
   background: rgba(17,25,54,.35);
   border-radius: 14px;
-  /* 手机上列太多时允许横向滚动 */
+  /* 允许横向滚动 */
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+
+  /* 强制显示滚动条（不同浏览器表现不同，但尽量可见） */
+  scrollbar-gutter: stable both-edges;
 }
+
+/* WebKit scrollbar */
+.grid-wrap::-webkit-scrollbar{height: 10px;}
+.grid-wrap::-webkit-scrollbar-track{background: rgba(14,22,48,.45);}
+.grid-wrap::-webkit-scrollbar-thumb{background: rgba(122,162,255,.35); border-radius: 999px;}
+.grid-wrap::-webkit-scrollbar-thumb:hover{background: rgba(122,162,255,.50);}
 
 .scroll-hint{
   position: sticky;
@@ -161,6 +170,19 @@ body{
 .warning.bad{border-color: rgba(255,107,107,.4)}
 .warning.warn{border-color: rgba(242,204,96,.4)}
 .warning.good{border-color: rgba(86,211,100,.35)}
+
+.hscroll{
+  margin-top: 10px;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: rgba(17,25,54,.25);
+  border-radius: 14px;
+}
+.hscroll-label{font-size:12px;color:var(--muted);min-width:64px}
+.hscroll input[type="range"]{width:100%}
 
 .dialog{
   width: min(720px, calc(100vw - 24px));
