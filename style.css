@@ -66,6 +66,7 @@ body{
 }
 
 .grid-wrap{
+  position: relative;
   border: 1px solid var(--line);
   background: rgba(17,25,54,.35);
   border-radius: 14px;
@@ -73,6 +74,33 @@ body{
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+}
+
+.scroll-hint{
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: var(--muted);
+  background: linear-gradient(90deg, rgba(14,22,48,.92), rgba(14,22,48,.65));
+  border-bottom: 1px solid var(--line);
+  display: none;
+  user-select: none;
+}
+
+/* 右侧渐隐提示还有内容 */
+.grid-wrap::after{
+  content: "";
+  position: sticky;
+  right: 0;
+  top: 0;
+  float: right;
+  width: 42px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(17,25,54,0), rgba(11,16,32,.85));
 }
 
 .grid{

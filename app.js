@@ -200,6 +200,8 @@ async function main() {
   const addBtn = document.getElementById('addBtn');
   const exportBtn = document.getElementById('exportBtn');
   const gridEl = document.getElementById('grid');
+  const gridWrap = document.getElementById('gridWrap');
+  const scrollHint = document.getElementById('scrollHint');
   const detailEl = document.getElementById('detail');
   const warningsEl = document.getElementById('warnings');
 
@@ -277,6 +279,12 @@ async function main() {
     dialog.showModal();
   };
 
+  const updateScrollHint = () => {
+    if (!gridWrap || !scrollHint) return;
+    const need = gridWrap.scrollWidth > gridWrap.clientWidth + 4;
+    scrollHint.style.display = need ? 'block' : 'none';
+  };
+
   const rerender = () => {
     const visible = renderGrid({
       gridEl,
@@ -286,15 +294,16 @@ async function main() {
       query
     });
 
-    // Make event cards editable by click: locate by matching fields, then open dialog
-    // (More robust: we show detail json with an edit hint)
     const warnings = detectConflicts(visible.map(normalizeEvent), schedule.days, schedule.slots);
     renderWarnings(warningsEl, warnings);
 
     // Add a hint in detail panel
     if (!detailEl.textContent || detailEl.textContent.includes('点击任意课程块')) {
-      detailEl.textContent = '提示：点击课程块查看详情；要编辑请在右上角点“新增课程”或导出后编辑 schedule.json。\n\n（当前支持在页面内新增/编辑/删除：点击课程块后，在详情里复制字段并用“新增课程”快速改。）';
+      detailEl.textContent = '提示：课表区域可左右滑动查看更多周几。\n点击课程块查看详情；要编辑请在右上角点“新增课程”或导出后编辑 schedule.json。';
     }
+
+    // next tick measure scroll
+    requestAnimationFrame(updateScrollHint);
   };
 
   weekSelect.value = '1';
@@ -384,6 +393,8 @@ async function main() {
       } catch {}
     }
   });
+
+  window.addEventListener('resize', () => requestAnimationFrame(updateScrollHint));
 
   rerender();
 }
